@@ -3,6 +3,9 @@ import React, { Component } from 'react'
 export class NewsItem extends Component {
     render() {
         let {title, description, imageUrl, newsUrl} = this.props;
+        console.log('imageUrl', imageUrl);
+        //imageUrl = '../../public/depositphotos_1098153-stock-photo-breaking-news.webp'
+        imageUrl = 'https://imgs.search.brave.com/zmHKLdSrQ9kP-1OHYOETqSgbtHH_FKYI0HPrXFHsGd0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMzLmRlcG9zaXRw/aG90b3MuY29tLzEw/MDA2ODQvMTA5L2kv/OTUwL2RlcG9zaXRw/aG90b3NfMTA5ODE1/My1zdG9jay1waG90/by1icmVha2luZy1u/ZXdzLmpwZw'
         return (
             <div className="my-3">
                 <div className="card" >
